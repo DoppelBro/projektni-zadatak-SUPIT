@@ -1,0 +1,59 @@
+/* star rule "catch all": its gonna effect all element, every SIGNLE HTML element */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    background: black;
+    padding: 5px 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navbar li {
+    font-size: 20px;
+    padding: 15px 5px;
+}
+
+
+/* ovo nije u projektnom primjeru ali izgleda kul ako s misem 
+hoveram oko imena */
+
+
+/* .navbar li a {
+    display: block;
+} */
+
+
+/* .navbar {
+    background-color: black;
+    color: rgb(252, 252, 248);
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.nav-list .list-item {
+    display: inline-block;
+} */
