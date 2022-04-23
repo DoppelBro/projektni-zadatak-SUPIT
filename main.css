@@ -1,0 +1,103 @@
+/* star rule "catch all": its gonna effect all element, every SIGNLE HTML element */
+/*
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background: black;
+    color: white;
+    padding: 5px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+  
+}
+a:link{
+    color: yellow;
+}
+
+a:visited{
+    color:yellow;
+  }
+
+.navbar li {
+    font-size: 20px;
+    padding: 15px 50px;
+    color: yellow;
+    display: inline;
+    
+}
+
+video{
+ right: 0;
+ bottom: 0;
+ min-width: 100%;
+ min-height: 100%;
+}
+
+.logo img{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+*/
+
+body{
+    margin:0;
+    padding: 0;
+    background-color: gray;
+}
+
+.navbar{
+    width: 100%;
+    background: black;
+    overflow: auto;
+    display: flex;
+    position: fixed;
+}
+
+ul{
+    padding: 0;
+    list-style-type: none;
+    
+}
+
+li{
+    float: left;
+}
+
+img{
+    position: relative;
+    height: 3rem;
+}
+
+.navbar a{
+    width:100px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background: purple;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
